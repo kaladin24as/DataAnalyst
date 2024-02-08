@@ -1,1 +1,0 @@
-Primer proyecto con Pandas. Nada muy serio
