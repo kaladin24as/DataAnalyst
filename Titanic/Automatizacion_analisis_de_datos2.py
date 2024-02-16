@@ -158,8 +158,6 @@ test_data_cleaned = test_data.copy()  # Hacer una copia de los datos de prueba
 # Convertir columnas categóricas a numéricas
 test_data_cleaned = convertir_columna_a_numerica(test_data_cleaned, 'Sex')  # Convertir 'Sex' a numérico u otra columna si es necesario
 
-# Aplicar el mismo preprocesamiento adicional que hiciste en los datos de entrenamiento (limpieza, eliminación de columnas, etc.)
-
 # Guardar los IDs de los pasajeros para el DataFrame de resultados
 test_ids = test_data_cleaned['PassengerId']
 
